@@ -1,34 +1,29 @@
 .subMain {
-    height: 80vh;
-    margin: auto;
-    align-items: center;
+    width: 80%;
+    margin: 10% 5%;
     text-align: center;
-    padding-bottom: 15vh;
-    margin-bottom: 10%;
 }
 
 .subMain ul {
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 0;
-    padding: 0 20px;
 }
 
 .la {
-    display: block;
-    width: 25%;
-    height: 50vh;
-    margin-left: 15px;
+    list-style: none;
+    align-items: center;
+    width: 22%;
+    height: 500px;
 }
 
 .image {
-    padding: 5%;
+    padding-top: 4rem;
 }
 
 .img1 {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 
 .description {
@@ -36,21 +31,35 @@
     align-items: center;
 }
 
-@media (max-width:600px) {
+.description>h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.description>p {
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+@media (max-width:800px) {
 
     .subMain ul {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px;
+        justify-content: center
     }
 
     .la {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 80%;
-        height: 50vh;
-        margin-left: 15px;
+        margin: auto;
+        height: 250px;
+        padding-top: 10px;
+    }
+
+    .image {
+        padding-top: 1rem;
     }
 
 
