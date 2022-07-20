@@ -1,0 +1,53 @@
+#foot {
+    display: flex;
+    width: 60%;
+    margin-left: 8%;
+    margin-top: 5%;
+    padding-top: 8%;
+}
+
+#foot ul {
+    list-style: none;
+    text-align: start;
+    margin: 0;
+    padding-left: 0;
+}
+
+#foot ul li {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#footlogo {
+    width: 30%;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 5%;
+    padding-top: 8%;
+}
+
+#footlogo div {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgb(54, 54, 54);
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.fa-brands {
+
+    font-size: 2rem;
+    color: rgb(243, 231, 231);
+}
+
+.fa-brands:hover {
+    color: green;
+}
+
+.fa-earth-asia {
+    margin-left: 10px;
+}

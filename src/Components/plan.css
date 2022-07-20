@@ -1,82 +1,91 @@
-
-#upi{
+#upi {
     margin: 10vh;
 }
 
-#contain{
+#contain {
     display: flex;
-    width:100%;
+    width: 100%;
     text-align: start;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin: auto;
     height: fit-content;
-   
+
 }
-.cards{
+
+.cards {
     width: 30%;
     height: 80vh;
     margin: 1%;
     border: 1px solid gray;
-  
+
 }
-.one{
+
+.one {
     background-color: aqua;
-    color:white;
+    color: white;
     font-weight: 800;
     font-size: 16px;
     width: fit-content;
     border: 1px solid rgb(12, 156, 240);
-    margin:5% 35% 0%  5%;
+    margin: 5% 35% 0% 5%;
     border-radius: 5%;
     padding: 1%;
 }
-.oneBtn{
+
+.oneBtn {
     width: fit-content;
     border: 1px solid rgba(24, 153, 228, 0.541);
-    margin:3%;
+    margin: 3%;
     padding: 3%;
     font-size: 12px;
-    color:blue;
+    color: blue;
     border-radius: 5%;
-    
+
 }
 
-.cards h3{
+.cards h3 {
     font-weight: 900;
     margin: 0 5%;
 }
-.cards p{
+
+.cards p {
     margin: 0 5%;
 }
-.cards hr{
-    margin:5%;
+
+.cards hr {
+    margin: 5%;
 }
+
 .cards ul li {
-   font-size: medium;
-   margin-bottom: 5px;
-   text-align: start;
+    font-size: medium;
+    margin-bottom: 5px;
+    text-align: start;
 }
+
 .cards ul li:before {
-    content: '✓'; 
+    content: '✓';
     font-size: 20px;
     margin-left: 0;
     margin-right: 10px;
-   }
-.cards button{
-    margin-left:12%;
-    background-color: black;
-    color:white;
-    padding:5px;
 }
-.cards a{
-   
-    color:gray;
+
+.cards button {
+    margin-left: 12%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.cards a {
+
+    color: gray;
     font-size: 12px;
     text-align: center;
 }
-.subscribe{
+
+.subscribe {
     display: flex;
-    width:fit-content;
+    width: fit-content;
     margin: auto;
     border: 1px solid gray;
     border-radius: 5%;
@@ -87,18 +96,20 @@
 
 
 @media (max-width:1210px) {
-    #contain{
+    #contain {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width:100%;
+        width: 100%;
 
     }
-    .cards{
-        width:50%;
+
+    .cards {
+        width: 50%;
         height: fit-content;
     }
-    #plans{
+
+    #plans {
         width: 90%;
     }
 }

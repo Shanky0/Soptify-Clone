@@ -1,35 +1,35 @@
-
-
-#culture{
+#culture {
     display: flex;
     width: 100%;
     padding: 5%;
     justify-content: space-around;
 }
 
-@media (max-width:960px){
+@media (max-width:960px) {
 
-    #culture{
+    #culture {
         display: block;
         width: 100%;
         padding: 5%;
         align-items: center;
     }
-    .card{
+
+    .card {
         margin-bottom: 15%;
     }
 
-    
-    .item{
+
+    .item {
         display: block;
         margin-top: -30vh;
         margin-left: 50%;
     }
-       
-    p{
+
+    p {
         display: block;
     }
-    h5{
+
+    h5 {
         display: block;
     }
 }

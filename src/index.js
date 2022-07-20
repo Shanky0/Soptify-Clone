@@ -7,6 +7,8 @@ import Top from './Components/Top';
 import Premium from './Components/premium';
 import Culture from './Components/culture';
 import Plan from './Components/plan';
+import Accordian from './Components/accordian';
+import Footer from './Components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,8 @@ root.render(
     <Premium />
     <Culture />
     <Plan />
+    <Accordian/>
+    <Footer/>
   </React.StrictMode>
 );
 
