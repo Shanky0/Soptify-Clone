@@ -1,0 +1,136 @@
+
+button1 {
+    margin-left: 2rem;
+    padding: 9px 15px;
+    color: white;
+    background-color: #1273e9;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background-color: black;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.icons {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.main {
+    width: 100%;
+    background-color: #1273e9;
+    ;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 14rem;
+    padding-bottom: 4rem;
+}
+
+.content h1 {
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.content h6 {
+    font-size: 25px;
+    margin: 35px 30px;
+}
+
+.content a {
+    color: white;
+    margin-top: 3%;
+}
+
+.text {
+    margin: 0 20px;
+    font-size: 10px;
+}
+
+
+.main2 {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.main2 a {
+    color: white;
+    margin-top: 4px;
+}
+
+
+@media (max-width:768px) {
+    .main {
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+        font-size: 16px;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    nav {
+        position: absolute;
+        top: 90%;
+        left: 70%;
+        width: 30%;
+        background-color: black;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+        margin: 1rem 2rem;
+        display: block;
+    }
+
+    nav span {
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+
+
+#culture{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+@media (max-width:960px){
+
+    #culture{
+        display: block;
+        width: 100%;
+        padding: 5%;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 15%;
+    }
+
+    
+    .item{
+        display: block;
+        margin-top: -30vh;
+        margin-left: 50%;
+    }
+       
+    p{
+        display: block;
+    }
+    h5{
+        display: block;
+    }
+}
